@@ -75,17 +75,67 @@ rggBEGIN <factor>
 rggTOKEN IDENTIFIER 'x1' on line 6
 rggEND <factor>
 rggEND <term>
+rggTOKEN - on line 6
+rggBEGIN <expression>
+rggBEGIN <term>
+rggBEGIN <factor>
+rggTOKEN NUMBER '1' on line 6
+rggEND <factor>
+rggEND <term>
+rggEND <expression>
 rggEND <expression>
 rggEND <assignment statement>
 rggEND <statement>
 rggEND <statement list>
 rggEND <statement list>
+rggTOKEN end on line 7
+rggTOKEN loop on line 7
 rggEND <while statement>
+rggEND <statement>
+rggTOKEN ; on line 7
+rggBEGIN <statement list>
+rggBEGIN <statement>
+rggBEGIN <assignment statement>
+rggTOKEN IDENTIFIER 'text' on line 8
+rggTOKEN := on line 8
+rggTOKEN STRING 'the result is ' on line 8
+rggEND <assignment statement>
+rggEND <statement>
+rggTOKEN ; on line 8
+rggBEGIN <statement list>
+rggBEGIN <statement>
+rggBEGIN <procedure statement>
+rggTOKEN call on line 9
+rggTOKEN IDENTIFIER 'put' on line 9
+rggTOKEN ( on line 9
+rggBEGIN <argument list>
+rggTOKEN IDENTIFIER 'text' on line 9
+rggEND <argument list>
+rggTOKEN ) on line 9
+rggEND <procedure statement>
+rggEND <statement>
+rggTOKEN ; on line 9
+rggBEGIN <statement list>
+rggBEGIN <statement>
+rggBEGIN <procedure statement>
+rggTOKEN call on line 10
+rggTOKEN IDENTIFIER 'put' on line 10
+rggTOKEN ( on line 10
+rggBEGIN <argument list>
+rggTOKEN IDENTIFIER 'x1' on line 10
+rggEND <argument list>
+rggTOKEN ) on line 10
+rggEND <procedure statement>
 rggEND <statement>
 rggEND <statement list>
 rggEND <statement list>
 rggEND <statement list>
+rggEND <statement list>
+rggEND <statement list>
+rggEND <statement list>
+rggTOKEN end on line 11
 rggEND <statement part>
+rggTOKEN EOF on line 13
 rggSUCCESS
 
 rggFILE Programs Folder\program1
@@ -163,17 +213,67 @@ rggBEGIN <factor>
 rggTOKEN IDENTIFIER 'x1' on line 6
 rggEND <factor>
 rggEND <term>
+rggTOKEN - on line 6
+rggBEGIN <expression>
+rggBEGIN <term>
+rggBEGIN <factor>
+rggTOKEN NUMBER '1' on line 6
+rggEND <factor>
+rggEND <term>
+rggEND <expression>
 rggEND <expression>
 rggEND <assignment statement>
 rggEND <statement>
 rggEND <statement list>
 rggEND <statement list>
+rggTOKEN end on line 7
+rggTOKEN loop on line 7
 rggEND <while statement>
+rggEND <statement>
+rggTOKEN ; on line 7
+rggBEGIN <statement list>
+rggBEGIN <statement>
+rggBEGIN <assignment statement>
+rggTOKEN IDENTIFIER 'text' on line 8
+rggTOKEN := on line 8
+rggTOKEN STRING 'the result is ' on line 8
+rggEND <assignment statement>
+rggEND <statement>
+rggTOKEN ; on line 8
+rggBEGIN <statement list>
+rggBEGIN <statement>
+rggBEGIN <procedure statement>
+rggTOKEN call on line 9
+rggTOKEN IDENTIFIER 'put' on line 9
+rggTOKEN ( on line 9
+rggBEGIN <argument list>
+rggTOKEN IDENTIFIER 'text' on line 9
+rggEND <argument list>
+rggTOKEN ) on line 9
+rggEND <procedure statement>
+rggEND <statement>
+rggTOKEN ; on line 9
+rggBEGIN <statement list>
+rggBEGIN <statement>
+rggBEGIN <procedure statement>
+rggTOKEN call on line 10
+rggTOKEN IDENTIFIER 'put' on line 10
+rggTOKEN ( on line 10
+rggBEGIN <argument list>
+rggTOKEN IDENTIFIER 'x1' on line 10
+rggEND <argument list>
+rggTOKEN ) on line 10
+rggEND <procedure statement>
 rggEND <statement>
 rggEND <statement list>
 rggEND <statement list>
 rggEND <statement list>
+rggEND <statement list>
+rggEND <statement list>
+rggEND <statement list>
+rggTOKEN end on line 11
 rggEND <statement part>
+rggTOKEN EOF on line 12
 rggSUCCESS
 
 rggFILE Programs Folder\program2
@@ -381,17 +481,72 @@ rggBEGIN <factor>
 rggTOKEN IDENTIFIER 'x1' on line 6
 rggEND <factor>
 rggEND <term>
+rggTOKEN - on line 6
+rggBEGIN <expression>
+rggBEGIN <term>
+rggBEGIN <factor>
+rggTOKEN NUMBER '1' on line 6
+rggEND <factor>
+rggEND <term>
+rggEND <expression>
 rggEND <expression>
 rggEND <assignment statement>
 rggEND <statement>
-rggEND <statement list>
-rggEND <statement list>
-rggEND <while statement>
+rggTOKEN ; on line 6
+rggBEGIN <statement list>
+rggBEGIN <statement>
 rggEND <statement>
 rggEND <statement list>
 rggEND <statement list>
 rggEND <statement list>
+rggTOKEN end on line 7
+rggTOKEN loop on line 7
+rggEND <while statement>
+rggEND <statement>
+rggTOKEN ; on line 7
+rggBEGIN <statement list>
+rggBEGIN <statement>
+rggBEGIN <assignment statement>
+rggTOKEN IDENTIFIER 'text' on line 8
+rggTOKEN := on line 8
+rggTOKEN STRING 'the result is ' on line 8
+rggEND <assignment statement>
+rggEND <statement>
+rggTOKEN ; on line 8
+rggBEGIN <statement list>
+rggBEGIN <statement>
+rggBEGIN <procedure statement>
+rggTOKEN call on line 9
+rggTOKEN IDENTIFIER 'put' on line 9
+rggTOKEN ( on line 9
+rggBEGIN <argument list>
+rggTOKEN IDENTIFIER 'text' on line 9
+rggEND <argument list>
+rggTOKEN ) on line 9
+rggEND <procedure statement>
+rggEND <statement>
+rggTOKEN ; on line 9
+rggBEGIN <statement list>
+rggBEGIN <statement>
+rggBEGIN <procedure statement>
+rggTOKEN call on line 10
+rggTOKEN IDENTIFIER 'put' on line 10
+rggTOKEN ( on line 10
+rggBEGIN <argument list>
+rggTOKEN IDENTIFIER 'x1' on line 10
+rggEND <argument list>
+rggTOKEN ) on line 10
+rggEND <procedure statement>
+rggEND <statement>
+rggEND <statement list>
+rggEND <statement list>
+rggEND <statement list>
+rggEND <statement list>
+rggEND <statement list>
+rggEND <statement list>
+rggTOKEN end on line 11
 rggEND <statement part>
+rggTOKEN EOF on line 13
 rggSUCCESS
 
 rggFILE Programs Folder\program5
@@ -469,17 +624,66 @@ rggBEGIN <factor>
 rggTOKEN IDENTIFIER 'x1' on line 6
 rggEND <factor>
 rggEND <term>
+rggTOKEN - on line 6
+rggBEGIN <expression>
+rggBEGIN <term>
+rggBEGIN <factor>
+rggTOKEN NUMBER '1' on line 6
+rggEND <factor>
+rggEND <term>
+rggEND <expression>
 rggEND <expression>
 rggEND <assignment statement>
 rggEND <statement>
 rggEND <statement list>
 rggEND <statement list>
+rggTOKEN end on line 7
 rggEND <while statement>
+rggEND <statement>
+rggTOKEN ; on line 7
+rggBEGIN <statement list>
+rggBEGIN <statement>
+rggBEGIN <assignment statement>
+rggTOKEN IDENTIFIER 'text' on line 8
+rggTOKEN := on line 8
+rggTOKEN STRING 'the result is ' on line 8
+rggEND <assignment statement>
+rggEND <statement>
+rggTOKEN ; on line 8
+rggBEGIN <statement list>
+rggBEGIN <statement>
+rggBEGIN <procedure statement>
+rggTOKEN call on line 9
+rggTOKEN IDENTIFIER 'put' on line 9
+rggTOKEN ( on line 9
+rggBEGIN <argument list>
+rggTOKEN IDENTIFIER 'text' on line 9
+rggEND <argument list>
+rggTOKEN ) on line 9
+rggEND <procedure statement>
+rggEND <statement>
+rggTOKEN ; on line 9
+rggBEGIN <statement list>
+rggBEGIN <statement>
+rggBEGIN <procedure statement>
+rggTOKEN call on line 10
+rggTOKEN IDENTIFIER 'put' on line 10
+rggTOKEN ( on line 10
+rggBEGIN <argument list>
+rggTOKEN IDENTIFIER 'x1' on line 10
+rggEND <argument list>
+rggTOKEN ) on line 10
+rggEND <procedure statement>
 rggEND <statement>
 rggEND <statement list>
 rggEND <statement list>
 rggEND <statement list>
+rggEND <statement list>
+rggEND <statement list>
+rggEND <statement list>
+rggTOKEN end on line 11
 rggEND <statement part>
+rggTOKEN EOF on line 13
 rggSUCCESS
 
 rggFILE Programs Folder\program6
@@ -536,16 +740,134 @@ rggBEGIN <factor>
 rggTOKEN IDENTIFIER 'a' on line 5
 rggEND <factor>
 rggEND <term>
+rggTOKEN - on line 5
+rggBEGIN <expression>
+rggBEGIN <term>
+rggBEGIN <factor>
+rggTOKEN IDENTIFIER 'b' on line 5
+rggEND <factor>
+rggEND <term>
+rggTOKEN + on line 5
+rggBEGIN <expression>
+rggBEGIN <term>
+rggBEGIN <factor>
+rggTOKEN IDENTIFIER 'c' on line 5
+rggEND <factor>
+rggEND <term>
+rggTOKEN - on line 5
+rggBEGIN <expression>
+rggBEGIN <term>
+rggBEGIN <factor>
+rggTOKEN IDENTIFIER 'd' on line 5
+rggEND <factor>
+rggEND <term>
+rggTOKEN + on line 5
+rggBEGIN <expression>
+rggBEGIN <term>
+rggBEGIN <factor>
+rggTOKEN IDENTIFIER 'e' on line 5
+rggEND <factor>
+rggEND <term>
+rggEND <expression>
+rggEND <expression>
+rggEND <expression>
+rggEND <expression>
+rggEND <expression>
+rggEND <assignment statement>
+rggEND <statement>
+rggTOKEN ; on line 5
+rggBEGIN <statement list>
+rggBEGIN <statement>
+rggBEGIN <assignment statement>
+rggTOKEN IDENTIFIER 'x1' on line 6
+rggTOKEN := on line 6
+rggBEGIN <expression>
+rggBEGIN <term>
+rggBEGIN <factor>
+rggTOKEN IDENTIFIER 'a' on line 6
+rggEND <factor>
+rggTOKEN * on line 6
+rggBEGIN <term>
+rggBEGIN <factor>
+rggTOKEN IDENTIFIER 'b' on line 6
+rggEND <factor>
+rggEND <term>
+rggEND <term>
+rggTOKEN - on line 6
+rggBEGIN <expression>
+rggBEGIN <term>
+rggBEGIN <factor>
+rggTOKEN IDENTIFIER 'c' on line 6
+rggEND <factor>
+rggTOKEN / on line 6
+rggBEGIN <term>
+rggBEGIN <factor>
+rggTOKEN IDENTIFIER 'd' on line 6
+rggEND <factor>
+rggEND <term>
+rggEND <term>
+rggTOKEN + on line 6
+rggBEGIN <expression>
+rggBEGIN <term>
+rggBEGIN <factor>
+rggTOKEN IDENTIFIER 'e' on line 6
+rggEND <factor>
+rggEND <term>
+rggEND <expression>
+rggEND <expression>
 rggEND <expression>
 rggEND <assignment statement>
 rggEND <statement>
 rggEND <statement list>
+rggEND <statement list>
+rggTOKEN end on line 7
+rggTOKEN loop on line 7
 rggEND <while statement>
+rggEND <statement>
+rggTOKEN ; on line 7
+rggBEGIN <statement list>
+rggBEGIN <statement>
+rggBEGIN <assignment statement>
+rggTOKEN IDENTIFIER 'text' on line 8
+rggTOKEN := on line 8
+rggTOKEN STRING 'the result is ' on line 8
+rggEND <assignment statement>
+rggEND <statement>
+rggTOKEN ; on line 8
+rggBEGIN <statement list>
+rggBEGIN <statement>
+rggBEGIN <procedure statement>
+rggTOKEN call on line 9
+rggTOKEN IDENTIFIER 'put' on line 9
+rggTOKEN ( on line 9
+rggBEGIN <argument list>
+rggTOKEN IDENTIFIER 'text' on line 9
+rggEND <argument list>
+rggTOKEN ) on line 9
+rggEND <procedure statement>
+rggEND <statement>
+rggTOKEN ; on line 9
+rggBEGIN <statement list>
+rggBEGIN <statement>
+rggBEGIN <procedure statement>
+rggTOKEN call on line 10
+rggTOKEN IDENTIFIER 'put' on line 10
+rggTOKEN ( on line 10
+rggBEGIN <argument list>
+rggTOKEN IDENTIFIER 'x1' on line 10
+rggEND <argument list>
+rggTOKEN ) on line 10
+rggEND <procedure statement>
 rggEND <statement>
 rggEND <statement list>
 rggEND <statement list>
 rggEND <statement list>
+rggEND <statement list>
+rggEND <statement list>
+rggEND <statement list>
+rggTOKEN end on line 11
 rggEND <statement part>
+rggTOKEN EOF on line 13
 rggSUCCESS
 
 rggFILE Programs Folder\program7
@@ -663,16 +985,65 @@ rggBEGIN <factor>
 rggTOKEN IDENTIFIER 'x1' on line 6
 rggEND <factor>
 rggEND <term>
+rggTOKEN - on line 6
+rggBEGIN <expression>
+rggBEGIN <term>
+rggBEGIN <factor>
+rggTOKEN NUMBER '1' on line 6
+rggEND <factor>
+rggEND <term>
+rggEND <expression>
 rggEND <expression>
 rggEND <assignment statement>
 rggEND <statement>
 rggEND <statement list>
 rggEND <statement list>
+rggTOKEN end on line 7
+rggTOKEN loop on line 7
 rggEND <while statement>
+rggEND <statement>
+rggTOKEN ; on line 7
+rggBEGIN <statement list>
+rggBEGIN <statement>
+rggBEGIN <assignment statement>
+rggTOKEN IDENTIFIER 'text' on line 8
+rggTOKEN := on line 8
+rggTOKEN STRING 'the result is ' on line 8
+rggEND <assignment statement>
+rggEND <statement>
+rggTOKEN ; on line 8
+rggBEGIN <statement list>
+rggBEGIN <statement>
+rggBEGIN <procedure statement>
+rggTOKEN call on line 9
+rggTOKEN IDENTIFIER 'put' on line 9
+rggTOKEN ( on line 9
+rggBEGIN <argument list>
+rggTOKEN IDENTIFIER 'text' on line 9
+rggEND <argument list>
+rggTOKEN ) on line 9
+rggEND <procedure statement>
+rggEND <statement>
+rggTOKEN ; on line 9
+rggBEGIN <statement list>
+rggBEGIN <statement>
+rggBEGIN <procedure statement>
+rggTOKEN call on line 10
+rggTOKEN IDENTIFIER 'put' on line 10
+rggTOKEN ( on line 10
+rggBEGIN <argument list>
+rggTOKEN IDENTIFIER 'x1' on line 10
+rggEND <argument list>
+rggTOKEN ) on line 10
+rggEND <procedure statement>
 rggEND <statement>
 rggEND <statement list>
 rggEND <statement list>
 rggEND <statement list>
+rggEND <statement list>
+rggEND <statement list>
+rggEND <statement list>
+rggTOKEN end on line 11
 rggEND <statement part>
 rggSUCCESS
 Programs Folder\program9 does not exist

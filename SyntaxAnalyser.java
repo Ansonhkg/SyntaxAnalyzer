@@ -83,7 +83,7 @@ public class SyntaxAnalyser extends AbstractSyntaxAnalyser
   public void expression() throws IOException, CompilationException{
     myGenerate.commenceNonterminal("<expression>");
     term();
-    while(nextToken.symbol == Token.plusSymbol){
+    while(nextToken.symbol == Token.plusSymbol || nextToken.symbol == Token.timesSymbol || nextToken.symbol == Token.minusSymbol){
 
       switch(nextToken.symbol){
         case Token.plusSymbol:
@@ -96,17 +96,18 @@ public class SyntaxAnalyser extends AbstractSyntaxAnalyser
           break;
         case Token.timesSymbol:
           acceptTerminal(Token.timesSymbol);
-          term();
+          expression();
           break;
       }
     }
+
     myGenerate.finishNonterminal("<expression>");
   }
 
   public void term() throws IOException, CompilationException{
     myGenerate.commenceNonterminal("<term>");
     factor();
-    while(nextToken.symbol == Token.timesSymbol){
+    while(nextToken.symbol == Token.timesSymbol || nextToken.symbol == Token.divideSymbol){
         switch(nextToken.symbol){
           case Token.timesSymbol:
             acceptTerminal(Token.timesSymbol);
@@ -146,6 +147,7 @@ public class SyntaxAnalyser extends AbstractSyntaxAnalyser
 
   public void ifStatement() throws IOException, CompilationException{
     myGenerate.commenceNonterminal("<if statement>");
+
     if(nextToken.symbol == Token.ifSymbol){
       acceptTerminal(Token.ifSymbol);
       condition();
@@ -169,6 +171,7 @@ public class SyntaxAnalyser extends AbstractSyntaxAnalyser
     if(nextToken.symbol == Token.identifier){
       acceptTerminal(Token.identifier);
       conditionOperator();
+
       switch(nextToken.symbol){
         case Token.identifier:
           acceptTerminal(Token.identifier);
